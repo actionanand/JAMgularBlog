@@ -1,7 +1,7 @@
 ---
 title: Post Two
 description: blog description
-published: false
+published: true
 ---
 
 # Post Two
