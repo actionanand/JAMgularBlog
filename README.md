@@ -26,7 +26,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
  - Run `ng build` or `ng build --watch`
  - Run `npm run scully -- --watch`
  if didn't open in watch mode
- - Run `npm run scully:serve` and open Scully [static server](http://localhost:1668/) 
+ - Run `npm run scully:serve` and open Scully [Static server](http://localhost:1668/) 
+
+ ## Scully - Help
+ - [Scully official](https://scully.io/)
+ - [JAMstack Static Site generator](https://jamstack.org/generators/)
 
 ## Further help
 
