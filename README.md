@@ -31,6 +31,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
  ## Scully - Help
  - [Scully official](https://scully.io/)
  - [JAMstack Static Site generator](https://jamstack.org/generators/)
+ - [Netlify](https://www.netlify.com/)
 
 ## Further help
 
