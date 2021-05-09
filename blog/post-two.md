@@ -10,4 +10,7 @@ createdOn: "13 Feb, 2021"
 
 # Post Two
 
-<p>This is the second post<p>
+<div class="container">
+  <img src="/assets/ng-dark.png" />
+  <p>Coming soon...<p>
+</div>

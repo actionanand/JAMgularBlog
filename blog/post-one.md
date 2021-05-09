@@ -14,3 +14,21 @@ createdOn: "9 May, 2021"
 <div class="container">
   <img src="/assets/login.png" />
   <p>Welcome to this guide on how to use Angular, Node, and MySQL to create a secure login system. JWT will be used to authenticate a login.</p>
+
+```html
+<p>hi!</p>
+```
+
+```css
+p {
+  color: red;
+}
+```
+
+```typescript
+let x = 5;
+if (x === 5) {
+  console.log("x === 5");
+}
+```
+</div>
