@@ -8,7 +8,7 @@ image: "/assets/ng-dark.png"
 createdOn: "13 Feb, 2021"
 ---
 
-# Post Two
+# Angular - Material Dark mode
 
 <div class="container">
   <img src="/assets/ng-dark.png" />

@@ -22,6 +22,12 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
+## Scully - How to run locally
+ - Run `ng build` or `ng build --watch`
+ - Run `npm run scully -- --watch`
+ if didn't open in watch mode
+ - Run `npm run scully:serve` and open Scully [static server](http://localhost:1668/) 
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

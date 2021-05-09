@@ -16,12 +16,12 @@ createdOn: "9 May, 2021"
   <p>Welcome to this guide on how to use Angular, Node, and MySQL to create a secure login system. JWT will be used to authenticate a login.</p>
 
 ```html
-<p>hi!</p>
+<p>Hello World</p>
 ```
 
 ```css
 p {
-  color: red;
+  color: green;
 }
 ```
 
