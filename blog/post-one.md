@@ -16,7 +16,7 @@ createdOn: "9 May, 2021"
   <p>Welcome to this guide on how to use Angular, Node, and MySQL to create a secure login system. JWT will be used to authenticate a login.</p>
 
 ```html
-<p>Hello World</p>
+<p> Hello World! </p>
 ```
 
 ```css
@@ -30,5 +30,10 @@ let x = 5;
 if (x === 5) {
   console.log("x === 5");
 }
+```
+
+```bash
+ng g m home --route=home --module=app-routing
+ng serve --host 0.0.0.0 --port 4201 --disable-host-check
 ```
 </div>

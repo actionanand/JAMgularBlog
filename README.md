@@ -23,15 +23,36 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Scully - How to run locally
- - Run `ng build` or `ng build --watch`
+ - Run `ng build` or `ng build --watch` to build the angular app
+ - Run `npm run scully -- --scanRoutes` to scan the Routes (have to run whenever new routes are there)
+ - Run `npm run scully` (have to run after building the app)
  - Run `npm run scully -- --watch`
- if didn't open in watch mode
- - Run `npm run scully:serve` and open Scully [Static server](http://localhost:1668/) 
+ - If the above commend didn't open in watch mode, then Run `npm run scully:serve` and open Scully [Static server](http://localhost:1668/) 
+ - set `build:scully` as a command for production to start the app in the server
 
  ## Scully - Help
  - [Scully official](https://scully.io/)
  - [JAMstack Static Site generator](https://jamstack.org/generators/)
  - [Netlify](https://www.netlify.com/)
+
+
+## Troubleshooting
+### How to kill server when seeing “EADDRINUSE: address already in use”
+
+1. To find the process id (PID) associated with the port
+
+`lsof -i tcp:1668`
+
+It'll display as below. Please note down the PID from that
+
+`COMMAND PID   USER  FD  TYPE DEVICE                SIZE/OFF NODE NAME`\
+`node    44475 chen5 31u IPv4 0x8b1721168764e4bf 0t0 TCP *:strexec-s (LISTEN)`
+
+2. Then to kill the process by PID
+
+`kill -9 44475`
+
+-[source](https://levelup.gitconnected.com/how-to-kill-server-when-seeing-eaddrinuse-address-already-in-use-16c4c4d7fe5d)
 
 ## Further help
 
