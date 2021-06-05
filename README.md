@@ -31,8 +31,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
  - set `build:scully` as a command for production to start the app in the server
 
  ## Scully - Help
- - [Scully official](https://scully.io/)
- - [JAMstack Static Site generator](https://jamstack.org/generators/)
+ - [Scully official](https://scully.io/ "Scully official")
+ - [JAMstack Static Site generator](https://jamstack.org/generators/ "staticgen.com")
  - [Netlify](https://www.netlify.com/)
 
 
@@ -41,16 +41,22 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 1. To find the process id (PID) associated with the port
 
-`lsof -i tcp:1668`
+```shell
+lsof -i tcp:1668
+```
 
 It'll display as below. Please note down the PID from that
 
-`COMMAND PID   USER  FD  TYPE DEVICE                SIZE/OFF NODE NAME`\
-`node    44475 chen5 31u IPv4 0x8b1721168764e4bf 0t0 TCP *:strexec-s (LISTEN)`
+```bash
+COMMAND PID   USER  FD  TYPE DEVICE                SIZE/OFF NODE NAME
+node   44475 chen5 31u IPv4 0x8b1721168764e4bf 0t0 TCP *:strexec-s (LISTEN)
+```
 
 2. Then to kill the process by PID
 
-`kill -9 44475`
+```bash
+kill -9 44475
+```
 
 -[source](https://levelup.gitconnected.com/how-to-kill-server-when-seeing-eaddrinuse-address-already-in-use-16c4c4d7fe5d)
 
